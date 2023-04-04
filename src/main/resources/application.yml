@@ -1,0 +1,21 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8081
+
+rabbitmq:
+  queue:
+    name: java_guides
+    json:
+      name: javaguides_json
+  exchange:
+    name: java_guides_exchange
+  routing:
+    key: javaguides_routing_key
+    json:
+      key: javaguides_routing_json_key
