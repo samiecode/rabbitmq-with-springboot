@@ -1,0 +1,9 @@
+###
+POST http://localhost:8081/api/v1/publish
+Content-Type: application/json
+
+{
+  "id": 2,
+  "firstName": "Samie",
+  "lastName": "Azubike"
+}
